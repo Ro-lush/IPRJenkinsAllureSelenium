@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="new day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,6 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -82,7 +83,7 @@
 }</component>
   <component name="RunManager" selected="JUnit.thisIsTest.testGoogleSerch">
     <configuration name="thisIsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestJenkinsAllureSelenium" />
+      <module name="IPRJenkinsAllureSelenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="thisIsTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -91,11 +92,24 @@
       </method>
     </configuration>
     <configuration name="thisIsTest.testGoogleSerch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestJenkinsAllureSelenium" />
+      <module name="IPRJenkinsAllureSelenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="thisIsTest" />
       <option name="METHOD_NAME" value="testGoogleSerch" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="IPRJenkinsAllureSelenium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="IPRJenkinsAllureSelenium" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +140,11 @@
       <workItem from="1711995034467" duration="336000" />
       <workItem from="1711995397319" duration="115000" />
       <workItem from="1711995527398" duration="109000" />
+      <workItem from="1712253425168" duration="377000" />
+      <workItem from="1712255527783" duration="669000" />
+      <workItem from="1712256210135" duration="1133000" />
+      <workItem from="1712258388190" duration="651000" />
+      <workItem from="1712558233575" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1711534496269</created>
@@ -181,5 +200,9 @@
     <MESSAGE value="new project" />
     <MESSAGE value="new day" />
     <option name="LAST_COMMIT_MESSAGE" value="new day" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

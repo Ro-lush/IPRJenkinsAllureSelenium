@@ -1,8 +1,6 @@
 package Base;
 
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,7 +14,7 @@ abstract public class BaseCore {
 
     @BeforeEach
     public void startDriver(){
-        System.setProperty(ConfigReader.DRIVER_NAME, ConfigReader.CHROME_DRIVER_WIN);
+        System.setProperty(ConfigReader.DRIVER_NAME, ConfigReader.CHROME_DRIVER_MAC);
         driver = new ChromeDriver();
         driverWait = new WebDriverWait(driver, Duration.ofSeconds(20));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));//Устанавливает время ожидания завершения загрузки страницы перед выдачей ошибки.

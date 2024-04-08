@@ -13,4 +13,5 @@ public interface ConfigReader {
     String CHROME_DRIVER_WIN = config.getString("chromeDriverWin64");
     String DRIVER_NAME = config.getString("driverName");
     String URL = config.getString("url");
+    String CHROME_DRIVER_MAC = config.getString("chromeDriverMacArm");
 }
