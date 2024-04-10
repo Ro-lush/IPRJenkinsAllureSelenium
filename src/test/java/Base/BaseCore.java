@@ -12,6 +12,9 @@ abstract public class BaseCore {
     public static WebDriver driver;
     public static WebDriverWait driverWait;
 
+    /**
+     * Метод запускается вначале тестов
+     */
     @BeforeAll
     public static void startDriver(){
         //  System.setProperty(ConfigReader.DRIVER_NAME, ConfigReader.CHROME_DRIVER_WIN); // пример записи указывает имя дрйвера и путь до драйвера

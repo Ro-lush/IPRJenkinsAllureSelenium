@@ -8,9 +8,7 @@ public class TestIPR extends BaseCore {
     @Test
    public void MailHomePage(){
         driver.get(ConfigReader.URL);
-        Assertions.assertTrue(driver.getCurrentUrl().equals(ConfigReader.URL),
-                "Адрес неверный - ожидаем: "+ConfigReader.URL+", получаем: "+ driver.getCurrentUrl());
-
+        Assertions.assertEquals(ConfigReader.URL,driver.getCurrentUrl());
     }
 
 }
