@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="add Screenshot.java">
+    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="+ анотации">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/MailPogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestIPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIPR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,11 +96,12 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestIPR.MailHomePage">
+  <component name="RunManager" selected="JUnit.TestIPR">
     <configuration name="TestIPR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IPRJenkinsAllureSelenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestIPR" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +137,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestIPR.button" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IPRJenkinsAllureSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestIPR" />
+      <option name="METHOD_NAME" value="button" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestIPR" />
+      <item itemvalue="JUnit.TestIPR.button" />
+      <item itemvalue="JUnit.TestIPR.GoogleSerch" />
+      <item itemvalue="JUnit.TestIPR.MailHomePage" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestIPR" />
+        <item itemvalue="JUnit.TestIPR.button" />
         <item itemvalue="JUnit.TestIPR.MailHomePage" />
         <item itemvalue="JUnit.TestIPR.GoogleSerch" />
-        <item itemvalue="JUnit.TestIPR" />
         <item itemvalue="JUnit.TestIPR.GoogleSerch" />
       </list>
     </recent_temporary>
@@ -173,7 +191,7 @@
       <workItem from="1712768997235" duration="5177000" />
       <workItem from="1713102760317" duration="488000" />
       <workItem from="1713116052267" duration="37000" />
-      <workItem from="1713183840284" duration="2691000" />
+      <workItem from="1713183840284" duration="9247000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1711534496269</created>
@@ -224,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713185582135</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="+ анотации">
+      <created>1713186850409</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713186850410</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +284,8 @@
     <MESSAGE value="fix BaseCore and pom.xml(junit-engine)" />
     <MESSAGE value="fix test 1" />
     <MESSAGE value="add Screenshot.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Screenshot.java" />
+    <MESSAGE value="+ анотации" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ анотации" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

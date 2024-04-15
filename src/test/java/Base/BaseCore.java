@@ -22,8 +22,8 @@ abstract public class BaseCore {
         // в новой версии selenium скачивает все нужные драйвера сам.
         driver = new ChromeDriver();
         driverWait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));//Устанавливает время ожидания завершения загрузки страницы перед выдачей ошибки.
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));//Указывает время, в течение которого драйвер должен ждать при поиске элемента, если он отсутствует сразу.
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));//Устанавливает время ожидания завершения загрузки страницы перед выдачей ошибки.
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));//Указывает время, в течение которого драйвер должен ждать при поиске элемента, если он отсутствует сразу.
 
     }
     @AfterAll
