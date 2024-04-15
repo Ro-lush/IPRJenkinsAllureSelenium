@@ -1,5 +1,6 @@
 package Base;
 
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
@@ -29,5 +30,9 @@ abstract public class BaseCore {
     public static void closeDriver(){
         driver.close();
         driver.quit();
+    }
+    @Step("Ввод адреса сайта")
+    public void setURL(String url){
+        driver.get(url);
     }
 }

@@ -1,6 +1,8 @@
 import Base.BaseCore;
 import Base.ConfigReader;
 import Base.Screenshot;
+import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -8,9 +10,11 @@ import org.junit.jupiter.api.extension.ExtendWith;
 @ExtendWith(Screenshot.class)
 public class TestIPR extends BaseCore {
 
-    @Test
+    @Test()
+    @Description("Проверка адреса сайта")
+    @Owner("Иванов Иван Иванович iii@mail.ru")
    public void MailHomePage(){
-        driver.get(ConfigReader.URL);
+        setURL(ConfigReader.URL);
         Assertions.assertEquals(ConfigReader.URL,driver.getCurrentUrl());
     }
 

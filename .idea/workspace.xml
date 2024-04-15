@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="fix test 1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Screenshot.java" afterDir="false" />
+    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="add Screenshot.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/MailPogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestIPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIPR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +173,7 @@
       <workItem from="1712768997235" duration="5177000" />
       <workItem from="1713102760317" duration="488000" />
       <workItem from="1713116052267" duration="37000" />
-      <workItem from="1713183840284" duration="1613000" />
+      <workItem from="1713183840284" duration="2691000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1711534496269</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712775971053</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add Screenshot.java">
+      <created>1713185582135</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713185582135</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +258,8 @@
     <MESSAGE value="new day" />
     <MESSAGE value="fix BaseCore and pom.xml(junit-engine)" />
     <MESSAGE value="fix test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix test 1" />
+    <MESSAGE value="add Screenshot.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Screenshot.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
