@@ -15,7 +15,7 @@ public class CreateMail extends BaseCore {
     public CreateMail(final WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
-@FindBy(xpath = "//button[@class='resplash-btn resplash-btn_primary resplash-btn_mailbox-big gcl__fkdf-1jdtl7f']")
+@FindBy(xpath = "//div[@class='footer gcl__fkdf-1pn6uk5 footer_logged-out']")
 private WebElement creatMail;
 
     @Step("Проверка кнопки Создать почту")

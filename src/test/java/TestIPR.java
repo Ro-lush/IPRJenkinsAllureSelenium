@@ -14,7 +14,7 @@ public class TestIPR extends BaseCore {
     MailAuthorization mailAuthorization = new MailAuthorization(driver);
     CreateMail createMail = new CreateMail(driver);
 
-    @Test()
+    @Test
     @Description("Проверка адреса сайта")
     @Owner("Иванов Иван Иванович iii@mail.ru")
     public void MailHomePage() {
