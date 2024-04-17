@@ -3,8 +3,10 @@ import Base.ConfigReader;
 import Base.Screenshot;
 import MailTestUI.CreateMail;
 import MailTestUI.MailAuthorization;
+import MailTestUI.MailRecoveryCheck;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -13,11 +15,12 @@ import org.junit.jupiter.api.extension.ExtendWith;
 public class TestIPR extends BaseCore {
     MailAuthorization mailAuthorization = new MailAuthorization(driver);
     CreateMail createMail = new CreateMail(driver);
+    MailRecoveryCheck mailRecoveryCheck = new MailRecoveryCheck();
 
     @Test
     @Description("Проверка адреса сайта")
     @Owner("Иванов Иван Иванович iii@mail.ru")
-    public void MailHomePage() {
+    public void mailHomePage() {
         setURL(ConfigReader.URL);
         Assertions.assertEquals(ConfigReader.URL, driver.getCurrentUrl());
 
@@ -36,10 +39,18 @@ public class TestIPR extends BaseCore {
     @Test
     @Description("Проверка кнопки Создать почту")
     @Owner("Иванов Иван Иванович iii@mail.ru")
-    public void buttonCreateMail(){
+    public void buttonCreateMail() {
         setURL(ConfigReader.URL);
         createMail.checkButtonCreateMail();
+        createMail.elementVisibility();
 
     }
 
+    @Test
+    @Description("Проверка кнопки Создать почту")
+    @Owner("Иванов Иван Иванович iii@mail.ru")
+    public void mailRecovery(){
+        setURL(ConfigReader.URL);
+        mailRecoveryCheck.chekRecovery("pupkin@mail.ru");
+    }
 }

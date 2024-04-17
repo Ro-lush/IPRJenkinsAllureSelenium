@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="fix  createMail.checkButtonCreateMail">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailRecoveryCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestIPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIPR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,33 +98,13 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestIPR.buttonCreateMail">
+  <component name="RunManager" selected="JUnit.TestIPR.mailRecovery">
     <configuration name="TestIPR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IPRJenkinsAllureSelenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestIPR" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIPR.GoogleSerch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IPRJenkinsAllureSelenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestIPR" />
-      <option name="METHOD_NAME" value="GoogleSerch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIPR.MailHomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IPRJenkinsAllureSelenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestIPR" />
-      <option name="METHOD_NAME" value="MailHomePage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,21 +139,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestIPR.mailRecovery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IPRJenkinsAllureSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestIPR" />
+      <option name="METHOD_NAME" value="mailRecovery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.TestIPR.GoogleSerch" />
+      <item itemvalue="JUnit.TestIPR.mailRecovery" />
       <item itemvalue="JUnit.TestIPR.buttonCreateMail" />
       <item itemvalue="JUnit.TestIPR.buttonEntry" />
       <item itemvalue="JUnit.TestIPR" />
       <item itemvalue="JUnit.TestIPR.button" />
-      <item itemvalue="JUnit.TestIPR.MailHomePage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestIPR.buttonCreateMail" />
+        <item itemvalue="JUnit.TestIPR.mailRecovery" />
         <item itemvalue="JUnit.TestIPR" />
+        <item itemvalue="JUnit.TestIPR.buttonCreateMail" />
         <item itemvalue="JUnit.TestIPR.buttonEntry" />
         <item itemvalue="JUnit.TestIPR.button" />
-        <item itemvalue="JUnit.TestIPR.MailHomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +312,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix  createMail.checkButtonCreateMail" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestIPR.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="MailTestUI.MailAuthorization" memberName="iframe" />
