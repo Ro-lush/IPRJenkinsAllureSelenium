@@ -3,6 +3,7 @@ package Base;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -26,7 +27,7 @@ abstract public class BaseCore {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));//Указывает время, в течение которого драйвер должен ждать при поиске элемента, если он отсутствует сразу.
 
     }
-    @AfterAll
+@AfterAll
     public static void closeDriver(){
         driver.close();
         driver.quit();

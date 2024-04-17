@@ -14,8 +14,8 @@ public class Screenshot extends BaseCore implements TestWatcher {
     public void testFailed(ExtensionContext context, Throwable cause) {
         Allure.getLifecycle().addAttachment("screenshot"+" "+ currentDate,"image/png"
                 ,"png",((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES));
-        /*driver.close();
-        driver.quit();*/
+//        driver.close();
+//        driver.quit();
 
     }
 }

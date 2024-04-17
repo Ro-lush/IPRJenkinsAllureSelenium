@@ -6,7 +6,7 @@ import com.typesafe.config.ConfigFactory;
 public interface ConfigReader {
     Config config = readConfig();
 
-    static Config readConfig(){
+    static Config readConfig() {
         return ConfigFactory.load("config.conf");
     }
 
@@ -14,4 +14,5 @@ public interface ConfigReader {
     String DRIVER_NAME = config.getString("driverName");
     String URL = config.getString("url");
     String CHROME_DRIVER_MAC = config.getString("chromeDriverMacArm");
+    String URL_CREATE_MAIL = config.getString("urlCreateMail");
 }

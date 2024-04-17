@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="+ анотации">
+    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="+ Проверка кнопки Войти">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Screenshot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestIPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIPR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +91,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,16 +107,6 @@
       <option name="MAIN_CLASS_NAME" value="TestIPR" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIPR.GoogleSerch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IPRJenkinsAllureSelenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestIPR" />
-      <option name="METHOD_NAME" value="GoogleSerch" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,21 +141,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestIPR.buttonCreateMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IPRJenkinsAllureSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestIPR" />
+      <option name="METHOD_NAME" value="buttonCreateMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIPR.buttonEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IPRJenkinsAllureSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestIPR" />
+      <option name="METHOD_NAME" value="buttonEntry" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.TestIPR.buttonCreateMail" />
+      <item itemvalue="JUnit.TestIPR.buttonEntry" />
       <item itemvalue="JUnit.TestIPR" />
       <item itemvalue="JUnit.TestIPR.button" />
-      <item itemvalue="JUnit.TestIPR.GoogleSerch" />
       <item itemvalue="JUnit.TestIPR.MailHomePage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestIPR" />
+        <item itemvalue="JUnit.TestIPR.buttonEntry" />
+        <item itemvalue="JUnit.TestIPR.buttonCreateMail" />
         <item itemvalue="JUnit.TestIPR.button" />
         <item itemvalue="JUnit.TestIPR.MailHomePage" />
-        <item itemvalue="JUnit.TestIPR.GoogleSerch" />
-        <item itemvalue="JUnit.TestIPR.GoogleSerch" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="Selenium" />
+    <option name="lastLanguageId" value="JAVA" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -191,7 +210,8 @@
       <workItem from="1712768997235" duration="5177000" />
       <workItem from="1713102760317" duration="488000" />
       <workItem from="1713116052267" duration="37000" />
-      <workItem from="1713183840284" duration="9247000" />
+      <workItem from="1713183840284" duration="9381000" />
+      <workItem from="1713280451130" duration="9541000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1711534496269</created>
@@ -249,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713186850410</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="+ Проверка кнопки Войти">
+      <created>1713206498831</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713206498831</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +312,15 @@
     <MESSAGE value="fix test 1" />
     <MESSAGE value="add Screenshot.java" />
     <MESSAGE value="+ анотации" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ анотации" />
+    <MESSAGE value="+ Проверка кнопки Войти" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Проверка кнопки Войти" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="MailTestUI.MailAuthorization" memberName="iframe" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
