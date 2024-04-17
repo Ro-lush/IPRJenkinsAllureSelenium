@@ -3,8 +3,7 @@ package MailTestUI;
 import Base.BaseCore;
 import Base.ConfigReader;
 import io.qameta.allure.Step;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -21,6 +20,8 @@ private WebElement creatMail;
     @Step("Проверка кнопки Создать почту")
     public void checkButtonCreateMail(){
         creatMail.click();
+
+       // driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL, Keys.TAB);
         assertEquals(ConfigReader.URL_CREATE_MAIL,driver.getCurrentUrl());
     }
 

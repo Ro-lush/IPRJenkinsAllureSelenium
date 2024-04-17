@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="+ Проверка кнопки Войти">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" afterDir="false" />
+    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="fix  createMail.checkButtonCreateMail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Screenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestIPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIPR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713206498831</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix  createMail.checkButtonCreateMail">
+      <created>1713365856530</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713365856530</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +315,8 @@
     <MESSAGE value="add Screenshot.java" />
     <MESSAGE value="+ анотации" />
     <MESSAGE value="+ Проверка кнопки Войти" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Проверка кнопки Войти" />
+    <MESSAGE value="fix  createMail.checkButtonCreateMail" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix  createMail.checkButtonCreateMail" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
