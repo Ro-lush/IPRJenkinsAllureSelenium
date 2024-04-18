@@ -6,7 +6,6 @@ import MailTestUI.MailAuthorization;
 import MailTestUI.MailRecoveryCheck;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
-import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -47,7 +46,7 @@ public class TestIPR extends BaseCore {
     }
 
     @Test
-    @Description("Проверка кнопки Создать почту")
+    @Description("Проверка кнопки Восстановить почту")
     @Owner("Иванов Иван Иванович iii@mail.ru")
     public void mailRecovery(){
         setURL(ConfigReader.URL);
