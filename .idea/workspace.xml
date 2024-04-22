@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="fix  createMail.checkButtonCreateMail">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailRecoveryCheck.java" afterDir="false" />
+    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="add  mailRecoveryCheck">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestIPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIPR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/MailRecoveryCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailRecoveryCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -200,6 +196,8 @@
       <workItem from="1713116052267" duration="37000" />
       <workItem from="1713183840284" duration="9381000" />
       <workItem from="1713280451130" duration="9541000" />
+      <workItem from="1713806215231" duration="59000" />
+      <workItem from="1713806286951" duration="2675000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1711534496269</created>
@@ -271,11 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713365856530</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add  mailRecoveryCheck">
+      <created>1713378611594</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713378611594</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -309,15 +317,16 @@
     <MESSAGE value="+ анотации" />
     <MESSAGE value="+ Проверка кнопки Войти" />
     <MESSAGE value="fix  createMail.checkButtonCreateMail" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix  createMail.checkButtonCreateMail" />
+    <MESSAGE value="add  mailRecoveryCheck" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  mailRecoveryCheck" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestIPR.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/test/java/MailTestUI/MailRecoveryCheck.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
