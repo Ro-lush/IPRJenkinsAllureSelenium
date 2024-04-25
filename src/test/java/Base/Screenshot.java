@@ -8,14 +8,14 @@ import org.openqa.selenium.TakesScreenshot;
 
 import java.util.Date;
 
-public class Screenshot extends BaseCore implements TestWatcher {
+public class Screenshot extends SeleniumPage implements TestWatcher {
     Date currentDate = new Date();
+
     @Override
     public void testFailed(ExtensionContext context, Throwable cause) {
-        Allure.getLifecycle().addAttachment("screenshot"+" "+ currentDate,"image/png"
-                ,"png",((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES));
-//        driver.close();
-//        driver.quit();
-
+        Allure.getLifecycle().addAttachment("screenshot" + " " + currentDate, "image/png"
+                , "png", ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BYTES));
+        webDriver.close();
+        webDriver.quit();
     }
 }

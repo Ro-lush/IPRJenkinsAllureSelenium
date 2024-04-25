@@ -12,29 +12,31 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 abstract public class BaseCore {
-    public static WebDriver driver;
-    public static WebDriverWait driverWait;
+    protected WebDriver driver;
+    protected WebDriverWait driverWait;
 
     /**
-     * Метод запускается вначале тестов
+     * Метод запускается вначале  тестов
      */
-    @BeforeAll
-    public static void startDriver(){
+    @BeforeEach
+    public void startDriver(){
        // System.setProperty(ConfigReader.DRIVER_NAME, ConfigReader.CHROME_DRIVER_MAC); // пример записи указывает имя дрйвера и путь до драйвера
         // в новой версии selenium скачивает все нужные драйвера сам.
         driver = new ChromeDriver();
         driverWait = new WebDriverWait(driver, Duration.ofSeconds(20));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));//Устанавливает время ожидания завершения загрузки страницы перед выдачей ошибки.
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));//Указывает время, в течение которого драйвер должен ждать при поиске элемента, если он отсутствует сразу.
-
+        SeleniumPage.setDriver(driver,driverWait);
     }
-@AfterAll
-    public static void closeDriver(){
+
+    public  void closeDriver(){
         driver.close();
         driver.quit();
     }
+
     @Step("Ввод адреса сайта")
     public void setURL(String url){
         driver.get(url);
     }
+
 }

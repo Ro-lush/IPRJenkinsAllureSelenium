@@ -1,6 +1,7 @@
 import Base.BaseCore;
 import Base.ConfigReader;
 import Base.Screenshot;
+import Base.SeleniumPage;
 import MailTestUI.CreateMail;
 import MailTestUI.MailAuthorization;
 import MailTestUI.MailRecoveryCheck;
@@ -12,9 +13,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith(Screenshot.class)
 public class TestIPR extends BaseCore {
-    MailAuthorization mailAuthorization = new MailAuthorization(driver);
-    CreateMail createMail = new CreateMail(driver);
-    MailRecoveryCheck mailRecoveryCheck = new MailRecoveryCheck();
 
     @Test
     @Description("Проверка адреса сайта")
@@ -22,34 +20,38 @@ public class TestIPR extends BaseCore {
     public void mailHomePage() {
         setURL(ConfigReader.URL);
         Assertions.assertEquals(ConfigReader.URL, driver.getCurrentUrl());
-
+       closeDriver();
     }
 
     @Test
     @Description("Проверка кнопки Войти")
     @Owner("Иванов Иван Иванович iii@mail.ru")
     public void buttonEntry() {
+        MailAuthorization mailAuthorization = new MailAuthorization();
         setURL(ConfigReader.URL);
         mailAuthorization.pressLoginButton();
         mailAuthorization.elementVisibilityCheck();
-
+       closeDriver();
     }
 
     @Test
     @Description("Проверка кнопки Создать почту")
     @Owner("Иванов Иван Иванович iii@mail.ru")
     public void buttonCreateMail() {
+        CreateMail createMail = new CreateMail();
         setURL(ConfigReader.URL);
         createMail.checkButtonCreateMail();
         createMail.elementVisibility();
-
+       closeDriver();
     }
 
     @Test
     @Description("Проверка кнопки Восстановить почту")
     @Owner("Иванов Иван Иванович iii@mail.ru")
-    public void mailRecovery(){
+    public void mailRecovery() {
+        MailRecoveryCheck mailRecoveryCheck = new MailRecoveryCheck();
         setURL(ConfigReader.URL);
-        mailRecoveryCheck.chekRecovery("pupkin@mail.ru");
+        mailRecoveryCheck.checkRecovery("pupkin@mail.ru");
+        closeDriver();
     }
 }
