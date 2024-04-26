@@ -7,9 +7,6 @@
     <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="add  bag fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/SeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/SeleniumPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/MailRecoveryCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailRecoveryCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestIPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIPR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +201,7 @@
       <workItem from="1713948175140" duration="5078000" />
       <workItem from="1714046752355" duration="2203000" />
       <workItem from="1714049802665" duration="8137000" />
+      <workItem from="1714154402664" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1711534496269</created>
