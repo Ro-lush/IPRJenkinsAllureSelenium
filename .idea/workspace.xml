@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="add  mailRecoveryCheck Final">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/SeleniumPage.java" afterDir="false" />
+    <list default="true" id="1e8a6400-fa8e-419e-8cc6-1a8824ba9622" name="Changes" comment="add  bag fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Screenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/CreateMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailAuthorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/SeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/SeleniumPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MailTestUI/MailRecoveryCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailTestUI/MailRecoveryCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestIPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIPR.java" afterDir="false" />
     </list>
@@ -100,7 +97,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestIPR.buttonCreateMail">
+  <component name="RunManager" selected="JUnit.TestIPR">
     <configuration name="TestIPR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IPRJenkinsAllureSelenium" />
       <option name="PACKAGE_NAME" value="" />
@@ -160,10 +157,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestIPR" />
         <item itemvalue="JUnit.TestIPR.buttonCreateMail" />
         <item itemvalue="JUnit.TestIPR.mailRecovery" />
         <item itemvalue="JUnit.TestIPR.buttonEntry" />
-        <item itemvalue="JUnit.TestIPR" />
         <item itemvalue="JUnit.TestIPR.button" />
       </list>
     </recent_temporary>
@@ -206,7 +203,7 @@
       <workItem from="1713806286951" duration="4185000" />
       <workItem from="1713948175140" duration="5078000" />
       <workItem from="1714046752355" duration="2203000" />
-      <workItem from="1714049802665" duration="7016000" />
+      <workItem from="1714049802665" duration="8137000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1711534496269</created>
@@ -292,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713809058759</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add  bag fix">
+      <created>1714056927374</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714056927374</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +339,8 @@
     <MESSAGE value="fix  createMail.checkButtonCreateMail" />
     <MESSAGE value="add  mailRecoveryCheck" />
     <MESSAGE value="add  mailRecoveryCheck Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="add  mailRecoveryCheck Final" />
+    <MESSAGE value="add  bag fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  bag fix" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

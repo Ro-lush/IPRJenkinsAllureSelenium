@@ -7,7 +7,7 @@ abstract public class SeleniumPage {
     protected static WebDriver webDriver;
     protected static WebDriverWait webDriverWait;
 
-    public static void setDriver(WebDriver selDriver, WebDriverWait selWebDriverWait){
+    public static void setDriver(WebDriver selDriver, WebDriverWait selWebDriverWait) {
         webDriver = selDriver;
         webDriverWait = selWebDriverWait;
     }

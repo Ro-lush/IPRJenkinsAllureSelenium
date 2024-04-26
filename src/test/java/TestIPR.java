@@ -1,7 +1,6 @@
 import Base.BaseCore;
 import Base.ConfigReader;
 import Base.Screenshot;
-import Base.SeleniumPage;
 import MailTestUI.CreateMail;
 import MailTestUI.MailAuthorization;
 import MailTestUI.MailRecoveryCheck;
@@ -20,7 +19,7 @@ public class TestIPR extends BaseCore {
     public void mailHomePage() {
         setURL(ConfigReader.URL);
         Assertions.assertEquals(ConfigReader.URL, driver.getCurrentUrl());
-       closeDriver();
+        closeDriver();
     }
 
     @Test
@@ -31,7 +30,7 @@ public class TestIPR extends BaseCore {
         setURL(ConfigReader.URL);
         mailAuthorization.pressLoginButton();
         mailAuthorization.elementVisibilityCheck();
-       closeDriver();
+        closeDriver();
     }
 
     @Test
@@ -42,7 +41,7 @@ public class TestIPR extends BaseCore {
         setURL(ConfigReader.URL);
         createMail.checkButtonCreateMail();
         createMail.elementVisibility();
-       closeDriver();
+        closeDriver();
     }
 
     @Test
